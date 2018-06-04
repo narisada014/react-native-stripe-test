@@ -43,7 +43,7 @@ export default class App extends React.Component {
     axios({
       method: 'post',
       headers: {
-        'Authorization': "Bearer sk_test_sgvUtkpMSXyLX3j9MW8F0t5u",
+        'Authorization': "Bearer 'シークレットキー'",
         'Content-Type': 'application/x-www-form-urlencoded'
       },
       url: 'https://api.stripe.com/v1/tokens',
